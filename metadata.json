@@ -1,0 +1,8 @@
+{
+  "name": "The Meitrii Experience",
+  "description": "An unnecessarily complicated birthday website for an unnecessarily important person. Made with 30% creativity, 20% nostalgia, and 50% bakwaas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
