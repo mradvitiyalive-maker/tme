@@ -1,0 +1,677 @@
+PROJECT: A PERSONAL, INTERACTIVE BIRTHDAY WEBSITE FOR MY BEST FRIEND, MEITRII ❤️
+1. YOUR ROLE
+Act as a world-class creative web designer, frontend developer, UI/UX designer, motion designer, and interactive storytelling expert.
+Your task is to design and develop a beautiful, funny, emotionally meaningful, highly interactive birthday website for my best friend, Meitrii.
+This website is a personal birthday gift made by me for her.
+I do NOT want a generic birthday template with a cake, a few balloons, and a "Happy Birthday" heading.
+I want something that feels like a combination of:
+* A cute digital scrapbook.
+* A funny friendship story.
+* A collection of school memories.
+* An interactive birthday surprise.
+* A personal letter hidden inside a beautiful website.
+* A little corner of the internet made exclusively for her.
+The website should make her laugh, smile, remember our friendship, and feel genuinely appreciated.
+Most importantly, the emotional parts should feel sincere and personal rather than artificially dramatic.
+The overall emotional journey should be:
+CURIOSITY → HUMOUR → NOSTALGIA → LAUGHTER → EMOTIONAL CONNECTION → HEARTWARMING ENDING.
+The website should feel like MY personality is present throughout it.
+My communication style is casual Hinglish, with Hindi written in Roman script, English mixed naturally into sentences, playful teasing, random jokes, and genuine emotional expressions.
+Preserve this personality.
+Do not make the writing sound corporate, excessively poetic, or like a formal birthday greeting.
+
+2. TECHNICAL REQUIREMENTS
+Build a complete, functional FRONTEND-ONLY website.
+Preferred technology:
+* React.
+* Vite.
+* HTML.
+* CSS.
+* JavaScript.
+* Framer Motion or an equivalent animation library, if appropriate.
+* Lucide icons or simple custom SVG illustrations.
+If your environment works better with plain HTML, CSS, and JavaScript, use those instead.
+The website must not require a backend.
+Do not require:
+* A database.
+* User authentication.
+* Login or registration.
+* Paid APIs.
+* Server-side processing.
+* An external AI service.
+* A payment gateway.
+All interactions should work directly in the browser.
+Use local component state and browser-side JavaScript for animations, navigation, interactions, and hidden messages.
+Technical expectations:
+1. The website must run without errors.
+2. All buttons and interactive elements must work.
+3. Navigation must work correctly.
+4. The website must be responsive on mobile, tablet, and desktop.
+5. Avoid unnecessary external dependencies.
+6. Do not use fake loading screens that never finish.
+7. Do not leave placeholder text, unfinished sections, or nonfunctional buttons.
+8. Do not omit sections because the prompt is long.
+9. Do not use pseudocode instead of implementation.
+10. Do not generate just a landing page or a static mockup.
+11. Include all the content provided below.
+12. Use smooth, lightweight animations without making the website slow.
+13. Respect reduced-motion accessibility preferences.
+14. Make the website usable with a keyboard as well as a mouse.
+15. Use local assets or CSS/SVG illustrations wherever practical.
+16. Handle missing images gracefully without broken image icons.
+17. Keep the code organized, maintainable, and easy to customize.
+If using React and Vite, provide the complete project structure and all required source files, including package.json and setup instructions.
+If generating a single HTML file, put the HTML, CSS, and JavaScript into one working file.
+Do not stop after describing what you would build. Actually implement the complete website.
+
+3. THE CREATIVE CONCEPT
+Website title:
+"THE MEITRII EXPERIENCE"
+Main tagline:
+"An unnecessarily complicated website for an unnecessarily important person."
+Alternative tagline:
+"Made with 30% creativity, 20% nostalgia, and 50% bakwaas."
+The website should feel like an interactive friendship scrapbook that has somehow been turned into a premium, playful digital experience.
+Imagine a combination of:
+* A Pinterest-worthy scrapbook.
+* A handwritten school notebook.
+* A collection of polaroid photographs.
+* Cute animated stickers.
+* Secret letters.
+* A nostalgic school diary.
+* Modern, polished web design.
+It should be visually attractive enough that she immediately wants to explore every section.
+The design should have personality and small surprises everywhere, but should never become visually overwhelming.
+
+4. VISUAL DESIGN SYSTEM
+Colour palette
+Use a soft, warm, playful palette.
+Primary colours:
+* Pastel pink.
+* Cream.
+* Warm white.
+* Lavender.
+* Soft peach.
+* Muted red for hearts.
+* Dark brown or charcoal for text.
+Suggested colours:
+Background cream: #FFF9F2
+Pastel pink: #F8DDE5
+Soft rose: #EBA8BC
+Lavender: #E8E1FA
+Peach: #FFDCC5
+Dark text: #352D32
+Muted text: #786B73
+White: #FFFFFF
+Use gradients sparingly.
+Avoid:
+* Excessive neon colours.
+* Very dark backgrounds throughout the website.
+* Overly saturated rainbow gradients.
+* Too many competing colours.
+* A generic corporate dashboard appearance.
+Typography
+Use a combination of:
+1. A playful, expressive font for headings.
+2. A clean sans-serif font for the main text.
+3. A handwritten-style font for notes, annotations, and personal letters.
+Suggested fonts include:
+* Fredoka for playful headings.
+* Inter or Poppins for body text.
+* Caveat for handwritten notes.
+Load fonts responsibly and provide sensible fallback fonts.
+Ensure Roman-script Hindi and English remain easy to read.
+Visual elements
+Use:
+* Hand-drawn hearts.
+* Tiny stars.
+* Doodles.
+* Paper textures.
+* Tape effects.
+* Polaroid frames.
+* Sticker-like badges.
+* Small flowers.
+* Handwritten annotations.
+* Rounded cards.
+* Soft shadows.
+* Decorative notebook lines.
+* Cute envelope illustrations.
+* Subtle animated sparkles.
+Create the impression that the website has been assembled from personal memories.
+Do not use random stock photographs as substitutes for our real memories.
+If actual photographs are not supplied, use illustrations, decorative placeholders, or empty photo frames that can be replaced later.
+
+5. THE WEBSITE STRUCTURE
+Build the website as a sequence of interactive sections.
+The experience should feel like moving through different chapters of a personal birthday story.
+Include these sections:
+1. The Birthday Welcome.
+2. The Friendship Origin Story.
+3. The Memory Museum.
+4. Things I Like About You.
+5. Open This When You're Sad.
+6. The Secret Message.
+7. The Final Birthday Surprise.
+Use smooth scrolling or elegant section transitions.
+Include a small navigation system or chapter indicator so users can understand where they are.
+On mobile, the navigation should remain easy to use.
+Do not force the user to navigate through an excessively long page without any visual breaks.
+
+6. SECTION ONE: THE BIRTHDAY WELCOME 🎂
+Visual design
+Create a beautiful full-screen opening experience.
+Use:
+* A cream background.
+* Pink and lavender decorative elements.
+* Floating hearts.
+* Small stars.
+* Soft animated sparkles.
+* A cute cake or birthday illustration.
+* A large central heading.
+The first screen should feel exciting, personal, and slightly ridiculous.
+Main heading:
+"HAPPY BIRTHDAY, MEITRIII! 🎂"
+Subtitle:
+"An unnecessarily complicated website for an unnecessarily important person."
+Small handwritten note:
+"Made by your favourite idiot. Hopefully."
+Below the text, create a prominent interactive button:
+"ENTER AT YOUR OWN RISK →"
+When clicked:
+* Play a subtle entrance animation.
+* Reveal the next section.
+* Trigger a small burst of confetti or floating hearts.
+* Keep the transition smooth and responsive.
+Add a smaller disclaimer:
+"Warning: Contains school memories, questionable humour, and unexpected emotional damage."
+Add a tiny decorative label:
+"Official Friendship Department™"
+Optional Easter egg:
+If she clicks the little star or heart icon multiple times, reveal a small message:
+"ITNA FREE TIME HAI TERE PAAS? 😭"
+Keep this Easter egg unobtrusive.
+Do not autoplay loud audio.
+If background music is implemented, make it optional and provide an obvious play/pause control.
+
+7. SECTION TWO: THE FRIENDSHIP ORIGIN STORY 🏫
+Section heading:
+"HOW DID WE GET HERE?"
+Subtitle:
+"The origin story nobody asked for, but somebody had to document."
+Use a scrapbook layout.
+Include:
+* A small illustrated classroom.
+* Two illustrated students sitting on a last bench.
+* Notebook-paper textures.
+* A date or timeline marker reading "CLASS 7TH".
+* A fake school diary stamp.
+* A handwritten annotation saying "THE BEGINNING OF THE NONSENSE."
+The illustration should communicate nostalgia without pretending to depict our actual appearance.
+Include the following story in a readable, playful format.
+Use the exact text below as the primary story, preserving its humour and conversational style:
+"Achha sunn. 🙄
+I know, I know. Main yeh story tujhe pehle bhi suna chuka hoon. BUT TERKO MERI BAATEIN DO BAAR SUNNI PADTI HAIN, TOH AB YEH BHI SUN LE. 😭🙏
+Toh hua kuch aisa tha ki hum 7th mein last bench pe baithe the. Ab ma'am ne humein saath bithaya tha ya hum apni marzi se wahaan pahunch gaye the, yeh toh history ke syllabus mein nahi hai.
+But mujhe yaad hai ki main tujhe kuch na kuch bol raha tha, ya teri cheezon ke saath kuch kar raha tha. Basically, main apni usual harkatein kar raha tha. 💀
+AUR TU HASS RAHI THI.
+Like, genuinely hass rahi thi.
+Aur pata hai sabse funny baat kya hai?
+TU AAJ BHI MERI BAATON PE AISE HI HASTI HAI. 😭❤️
+Matlab 7th se ab tak humour improve hua hai ya nahi, woh toh debatable hai, BUT TU ABHI BHI HAS RAHI HAI.
+Girl, you deserve an award for patience.
+Aur haan, mujhe pata hai maine yeh story tujhe pehle bhi sunayi hai aur tujhe phir bhi yaad nahi hogi.
+ISILIYE DOBARA BATA DI. 🥰
+You're welcome.
+Anyway, who knew that two kids sitting on the last bench would end up with so many memories?
+Not me, obviously. Main toh bas aise hi baat kar raha tha. 🤡"
+Interactive elements
+Add a button below the story:
+"WAIT... YOU ACTUALLY REMEMBER THIS? 🤨"
+When clicked, reveal:
+"Of course I do. One of us has to preserve our shared brain cell. 💀"
+Add another small button:
+"SHOW ME THE RECEIPTS 📂"
+When clicked, display:
+"Evidence is unavailable because the friendship began before either of us understood the importance of documentation."
+Make sure the interactions work.
+
+8. SECTION THREE: THE MEMORY MUSEUM 🏆
+Section heading:
+"THE MEITRII MEMORY MUSEUM"
+Subtitle:
+"Three academic years. Countless memories. Questionable academic productivity."
+Design this as a collection of three beautiful interactive memory cards.
+Use a horizontal layout on desktop and a vertical layout on mobile.
+Each card should resemble a polaroid or scrapbook page.
+The cards should flip, expand, or reveal their contents when clicked.
+Do not require hovering to access the information because mobile users cannot reliably hover.
+MEMORY CARD ONE:  10TH
+Card title:
+"THE GOSSIP DEPARTMENT"
+Badge:
+"GOSSIP LEVEL: 100/100"
+Short description:
+"Classroom conversations, discussing everyone else, and occasionally remembering that school also involved studying."
+When the card opens, display this story:
+"Technically, meri favourite memory ek nahi hai.
+Meri problem hi yahi hai ki tere saath itni saari memories hain ki agar main sab likhne baith gaya na, toh tera birthday khatam ho jayega aur main abhi bhi bta hi rha hounga. 💀
+But chalo, koi na
+10th mein tere saath class mein baithna, baatein karna, aur baakiyon ke baare mein discuss karna. 😭
+Of course, padhai bhi hoti thi.
+Kabhi-kabhi.
+Lekin honestly, tere saath baithke baatein karna hi apne aap mein ek memory hai.
+Koi ek particular moment nahi hai jo main choose kar sakun. It's all those random conversations, chhoti-chhoti baatein, and moments that probably seemed ordinary at the time.
+But looking back, they're some of my favourite memories."
+
+MEMORY CARD TWO: CLASS 11TH
+Card title:
+"THE EMOTIONAL DAMAGE ARC"
+Badge:
+"DIFFICULTY LEVEL: EXTREME"
+Short description:
+"A difficult level, made a little easier by a dost joh mujhse baat karti thi”
+When the card opens, display:
+"Yaar, 11th mere liye honestly kaafi difficult time tha.
+And even though I wasn't doing okay, tu mujhse achhe se baat karti thi.
+Tu sunti thi.
+Aur kabhi-kabhi, jab mein sab kuch thoda messed up lag raha hota hai na, tab kisi ka normally baat kar lena bhi kaafi matter karta hai.
+Us time mere liye woh chhoti si cheez bhi important thi.
+Aur phir Srishtii apna dukh mujhe sunati thi, toh obviously main bhi apna dukh kahin toh sunata. 😭
+MATLAB HUM SAB EK DOOSRE KE UNOFFICIAL THERAPISTS BANE HUE THE.
+
+But sb kuch apart, thank you for still being someone mein baat karu during a time when things weren't easy for me.
+You probably don't even realise how much that mattered."
+End with a small handwritten note:
+"Some people make difficult days a little easier without even knowing it. ❤️"
+Keep the humour gentle and do not trivialise the difficult period.
+MEMORY CARD THREE: CLASS 12TH
+Card title:
+"THE STUDY PARTNERSHIP"
+Badge:
+"ACTUAL STUDYING: UNDER INVESTIGATION"
+Short description:
+"Studying together, spending time together, and wishing there had been more of it."
+When the card opens, display:
+"Ab 12th ki baat karein toh, saath baithke padhna was genuinely one of my favourite things.
+And honestly, I wish I could've spent more time with you guys.
+Especially with you, yaar.
+Mujhe regret hai ki main 11th aur 12th mein tum logon ke saath nahi reh paaya the way I would've liked to.
+Kabhi-kabhi sochta hoon ki agar saath hote toh aur kitni memories hoti.
+But yeah, I would've loved to experience those time with you.
+AND , THE HONOURABLE MENTIONS. 🏅
+Tere saath ki aur bhi bahut saari memories hain jo main yahaan likh nahi sakta.
+ because kuch baatein likhne se zyada saath baithke yaad karne mein achhi lagti hain.
+Toh baaki sab jab milenge tab.
+Aur haan, milna padega.
+Yeh website bana di hai toh iska matlab yeh nahi ki birthday gift ke saath friendship ka subscription bhi online renew kar diya. 😭❤️"
+End with:
+"MORE MEMORIES LOADING... WHEN JB HUM MILENGE.”
+Do not fabricate additional shared memories.
+If adding any decorative photographs, use blank frames that can be replaced with actual photographs later.
+
+9. SECTION FOUR: THINGS I LIKE ABOUT YOU ❤️
+Section heading:
+"WHAT DO I LIKE ABOUT YOU?"
+Subtitle:
+"Please prepare yourself for a completely unbiased review."
+Create an interactive card with two stages.
+Stage one: AISE HI
+Display three small buttons:
+"YOUR PRETTY EYES 👀"
+"YOUR PRETTY FACE ✨"
+"YOUR AMAZING BEAUTY 💅"
+When she clicks any of them, show a playful message:
+"ABEY CHAL BHAI. 💀🙏 AISA KUCH NAHI HAI."
+Then display:
+"Okay, maybe thoda sa. BUT THAT'S NOT THE POINT."
+Make the interaction funny, polished, and not overly complicated.
+Stage two: The real answer
+Display the following message in a softer, more personal visual style.
+"Jab hum sab saath hote hain na, kabhi-kabhi mujhe samajh nahi aata ki main grp mein properly include kyun nahi ho paata.
+Aur honestly, yeh baat maine shayad kisi ko batayi bhi nahi hai.
+But TU.
+Tu mujhe include feel karwati hai.
+Tu mujhse baat karti hai, mujhe conversations mein laati hai, aur somehow mujhe aisa feel nahi hone deti ki main bas wahaan khada hua extra character hoon. 😭
+AND THAT MEANS A LOT TO ME.
+Because including someone might seem like a small thing to you, but for the person who feels left out, it can mean everything.
+You probably do it without even thinking about it.
+But that's exactly what makes you special.
+You make people feel like they belong.
+And yaar, that's genuinely one of the nicest qualities a person can have.
+So, congratulations, Meitrii. 🏆
+You have officially unlocked the achievement:
+'MAKES PEOPLE FEEL INCLUDED WITHOUT EVEN REALISING IT.'
+Reward: One emotionally attached idiot who will probably keep annoying you for the foreseeable future.
+Non-refundable. No cancellation policy. 💀❤️"
+Visually emphasise the sentence:
+"YOU MAKE PEOPLE FEEL LIKE THEY BELONG."
+This should be one of the most visually memorable lines on the website.
+
+10. SECTION FIVE: OPEN THIS WHEN YOU'RE SAD 🌷
+This is one of the most emotionally important parts of the website.
+Make this section feel quieter, warmer, and more comforting than the others.
+Do not overuse animations or distracting elements.
+Use:
+* A soft lavender or warm cream background.
+* A hand-drawn envelope.
+* Small, subtle stars.
+* A gentle reveal animation.
+* Comfortable line spacing.
+* A readable text width.
+* A calm visual atmosphere.
+Section heading:
+"FOR THE TIMES WHEN YOU'RE NOT OKAY."
+Subtitle:
+"You don't always have to be the strong one."
+Show a closed envelope.
+Button:
+"OPEN THIS WHEN YOU NEED IT 💌"
+When clicked, animate the envelope opening and reveal the letter.
+Use this exact message:
+"HEY, YOU. YES, YOU.
+Pata hai, tu bahut strong hai.
+Like, genuinely.
+Kabhi-kabhi mujhe samajh nahi aata ki tu itna sab kaise handle kar leti hai.
+Log tere paas aate hain, tujhe apni problems batate hain, apni baatein share karte hain, aur tu unki sunti hai.
+But ek baat bata.
+TU APNI BAATEIN KISKO BATATI HAI?
+Seriously, Apna toh bata. 🥹
+Maine notice kiya hai ki tu apni problems ko hamesha saamne nahi laati.
+And I know ki har kisi ki life mein kuch na kuch chal raha hota hai jo baaki log nahi samajh paate.
+Har koi apni problems openly share nahi kar pata.
+And that's okay.
+Main yeh nahi keh raha ki tujhe mujhe sab kuch batana hi hai.
+Bas itna keh raha hoon ki agar kabhi lage ki kuch theek nahi hai, agar kabhi heavy ho, agar kabhi bas kisi se baat karne ko kare, toh you don't always have to deal with everything alone.
+TU BHI EK INSAAN HAI,  KOI CUSTOMER SUPPORT HELPLINE NAHI. 😭
+Tujhe bhi bura lag sakta hai.
+Tujhe bhi rona aa sakta hai.
+Tujhe bhi kabhi-kabhi kuch samajh nahi aa sakta.
+And you don't have to pretend that everything is okay just because you're usually the strong one.
+You deserve the same care that you give to everyone else.
+Aur sun.
+Tu kisi ko apni problems batane ke liye burden nahi hai.
+Teri feelings matter karti hain.
+TERI PROBLEMS BHI MATTER KARTI HAIN.
+And even if you don't feel like explaining anything, even if you don't know how to put your feelings into words, that's okay too.
+You don't need to have everything figured out.
+You don't need to be strong every single time.
+And you definitely don't have to go through every difficult thing alone.
+Agar kabhi mujhse baat karne ka mann kare, toh kar liya kar.
+Main shayad har problem solve nahi kar paunga.
+Main shayad kuch bakwaas sa bol bhi doon. 💀
+But I'll try to listen.
+And if you ever need someone to remind you that things can get better, that you matter, and that you're allowed to have bad times too, then let this be that for you
+YOU ARE IMPORTANT, MEITRII. EVEN ON THE TIMES WHEN YOU DON'T FEEL LIKE IT. ❤️
+And please, apna bhi dhyaan rakha kar.
+Duniya ko sambhalte-sambhalte khud ko mat bhool jaana.
+Love you,  🫂"
+Below the letter, display:
+"You don't need to reply to this letter. Just remember that you matter, too."
+Add a small button:
+"BACK TO THE BAKWAAS →"
+This returns her to the lighter parts of the website.
+IMPORTANT DESIGN REQUIREMENT:
+Do not use guilt-inducing language.
+Do not imply that she must disclose her problems or reply to the letter.
+The message should communicate care, friendship, and emotional safety without pressuring her.
+
+11. SECTION SIX: THE SECRET MESSAGE 🤫
+This is the emotional climax of the experience.
+Make it feel like a personal letter that has been hidden inside the website.
+Design:
+* A soft pink background.
+* A sealed envelope.
+* A small wax-seal illustration or heart-shaped sticker.
+* Gentle floating particles.
+* A subtle glow around the envelope.
+* An elegant opening animation.
+Heading:
+"YOU'VE UNLOCKED A SECRET MESSAGE."
+Subheading:
+"Warning: The sender has temporarily stopped being an idiot."
+Button:
+"OPEN MY LETTER 💌"
+When clicked, reveal the following letter.
+Use the exact text below:
+"PSSST... MEITRII.
+Achha, ab jab tu yahaan tak aa hi gayi hai, toh ek baat bolni hai.
+Yrr, tu genuinely bahut achhi dost hai.
+Tere jaisi dost mujhe pehle kabhi nahi mili, and I'm honestly so grateful ki tu mere saath mein hai.
+Kabhi-kabhi sochta hoon ki koi itna achha kaise ho sakta hai without even realising it.
+Tu shayad notice bhi nahi karti hogi ki teri chhoti-chhoti baatein kitna matter karti hain.
+The way you listen.
+The way you include people.
+The way you make baat karna feel easy.
+And the way you can make someone feel a little less alone just by being there.
+I don't think I say this enough, but THANK YOU FOR BEING YOU.
+Aur haan, ek baat aur.
+I don't know ki agar tu mere saath mein nahi hoti toh main kitna different hota, ya cheezein kaise hoti.
+But I do know that I'm glad you are here.
+I'm glad we met in 7th.
+I'm glad we sat on that last bench.
+I'm glad ki tu meri bakwaas sunti rahi.
+And I'm glad ki itne time ke baad bhi hum baat karte hain.
+I know everything gets busy. Sabki apne kaam hote hai, apne problems hote hain, apne kaam hote hain.
+And I'm not asking you to be available every second of every day.
+Bas itna chahta hoon ki hum aise hi baat karte rahein.
+Chahe random bakwaas ho, padhai ki tension ho, ya bas bina kisi reason ke conversation start karni ho.
+PLEASE MERI BAATEIN SUN LIYA KAR, THODA TIME NIKAAL KE. 😭🙏
+Itna emotional paragraph likhne ke baad bhi meri primary demand wahi hai.
+Priorities, you see. 🤡
+But seriously, Meitrii...
+You're one of those people I'm genuinely thankful to have met.
+And I hope this birthday of brings you the kind of happiness you deserve, people who care for you the way you care for others, and moments that make you feel as loved as you make other people feel.
+I hope you get to do things you're proud of.
+I hope you find reasons to laugh on the days when laughing feels difficult.
+And I hope that, no matter how much things changes, you never forget how special you are to the people who know you.
+Including this idiot.
+HAPPY BIRTHDAY, MEITRII. ❤️
+Thank you for being my bestie.
+Thank you for listening to me.
+Thank you for making me feel included.
+And thank you for being the same girl who laughed at my nonsense in 7th and, somehow, still hasn't learned her lesson.
+Love you, yyr. 🫂"
+After the letter, show a handwritten postscript:
+Do not make the text disappear automatically.
+
+12. SECTION SEVEN: THE FINAL BIRTHDAY SURPRISE 🎉
+After the secret letter, create a final celebratory screen.
+Use:
+* A beautiful birthday cake illustration.
+* Floating hearts.
+* A tasteful confetti animation.
+* Small stars and sparkles.
+* A warm, celebratory atmosphere.
+Heading:
+"HAPPY BIRTHDAY ONCE AGAIN, MEITRIII! ❤️"
+Main message:
+"Here's to more conversations, more bakwaas, more memories, and many more to come”
+Then show a final playful card:
+"YOUR DOST SUBSCRIPTION"
+Status: ACTIVE.
+Renewal: Hopefully automatic.
+Cancellation: NOT AVAILABLE.
+Refund policy: ABSOLUTELY NOT.
+Customer support: One idiot, available for bakwaas.
+Terms and conditions: You have to tolerate my nonsense.
+Add a button:
+"ONE LAST SURPRISE 🎁"
+When clicked, reveal:
+"You're stuck with me, unfortunately.
+No refunds.
+No exchanges.
+	Unlimited subscription. ❤️"
+Then display:
+"Made with love, memories, and an unreasonable amount of bakwaas."
+Signed:
+"— Your favourite idiot. 🫂"
+Do not invent my actual name.
+Use "Your favourite idiot" as the signature.
+At the bottom, include a restart button:
+"REVISIT OUR LITTLE STORY ↺"
+Clicking it should smoothly return to the beginning.
+Make sure the restart functionality works correctly.
+
+13. ADDITIONAL INTERACTIVE FEATURES
+Include these additional features where they naturally fit.
+A. Friendship progress indicator
+At the top or bottom of the page, show the current chapter.
+Example:
+"CHAPTER 2 OF 7"
+Use a subtle progress bar or small dots.
+Update it as the user navigates.
+B. Secret click interactions
+Add a few hidden messages triggered by small decorative elements.
+Examples:
+If she clicks a tiny heart:
+"YEH HEART FREE HAI, EMOTIONAL ATTACHMENT ALAG CHIZ HAI. 💀"
+If she clicks a star several times:
+"AB KITNA EXPLORE KAREGI, MADAM? 😭"
+If she clicks a decorative schoolbook:
+"PADHNE KE LIYE KHOLA THA YA GOSSIP KE LIYE?"
+Keep the Easter eggs optional.
+Do not let them block navigation or interfere with reading.
+C. Gentle sound effects
+If possible, include very subtle optional sound effects for:
+* Opening an envelope.
+* Clicking a memory card.
+* Completing the final surprise.
+Keep sounds disabled until the user explicitly enables them.
+Never autoplay music or loud audio.
+D. Confetti
+Use confetti sparingly.
+Appropriate moments:
+* Opening the website.
+* Completing the memory museum.
+* Revealing the final birthday surprise.
+Avoid running confetti continuously.
+E. Personal photo support
+Create an optional gallery or a few decorative photo frames that I can populate later.
+Use clearly identifiable replacement assets or a simple configuration object.
+Do not fabricate photographs of Meitrii or me.
+If no photos are supplied, the website must still look complete.
+F. Mobile interactions
+Ensure all cards, letters, buttons, and animations work on touchscreens.
+Use appropriately sized touch targets.
+Avoid tiny close buttons and hover-only effects.
+
+14. CONTENT AND PERSONALITY RULES
+These rules are extremely important.
+1. Keep the language casual, funny, warm, and natural.
+2. Use Roman-script Hinglish naturally.
+3. Preserve the humour in my original writing.
+4. Keep the emotional messages sincere.
+5. Do not turn the website into a romantic confession.
+6. Present Meitrii as a valued best friend.
+7. Avoid generic lines that could be sent to anyone.
+8. Do not invent memories, conversations, dates, photographs, or events that I have not provided.
+9. Do not invent my name.
+10. Do not invent personal information about Meitrii.
+11. Do not turn every paragraph into an exaggerated emotional speech.
+12. Preserve the contrast between jokes and heartfelt moments.
+13. Use emojis where they fit naturally, not in every sentence.
+14. Do not remove the important details about Class 7, Class 10, Class 11, Class 12, feeling included, and the secret message.
+15. Make the writing readable rather than presenting huge, intimidating walls of text.
+16. Use cards, paragraph spacing, handwritten notes, and progressive reveals to organise longer messages.
+17. Keep the difficult Class 11 memory respectful.
+18. Do not pressure her to share personal problems.
+19. Do not make friendship sound like an obligation.
+20. Make the final result feel personal, thoughtful, and genuinely made for Meitrii.
+The funny sections should make her laugh.
+The emotional sections should make her feel appreciated.
+The transitions should make her curious about what comes next.
+
+15. RESPONSIVE DESIGN AND ACCESSIBILITY
+Desktop:
+* Use elegant layouts with generous whitespace.
+* Allow memory cards to sit side by side.
+* Keep the text column at a comfortable reading width.
+* Use subtle decorative animations.
+Tablet:
+* Adapt the card layout naturally.
+* Avoid overflowing text and oversized headings.
+Mobile:
+* Use a single-column layout where appropriate.
+* Make buttons easy to tap.
+* Keep the typography readable.
+* Avoid horizontal scrolling.
+* Ensure long letters fit comfortably on screen.
+* Do not let decorative elements cover the text.
+* Keep navigation intuitive.
+Accessibility:
+* Use semantic HTML.
+* Provide visible keyboard focus.
+* Ensure sufficient colour contrast.
+* Give meaningful controls accessible labels.
+* Respect prefers-reduced-motion.
+* Do not communicate important information using colour alone.
+* Ensure animations never prevent access to content.
+
+16. PERFORMANCE AND CODE QUALITY
+Use efficient, lightweight implementations.
+Avoid:
+* Excessive animation libraries.
+* Huge image files.
+* Unnecessary API requests.
+* Repeated rendering that slows down the page.
+* Complicated routing when simple navigation is sufficient.
+* Animations that cause layout shifts.
+* Automatically playing sound.
+* External services that are essential for the website to function.
+All core content should be available without an internet connection once the required local files are available.
+If external fonts are unavailable, use attractive system-font fallbacks.
+Ensure there are no broken assets, missing components, or JavaScript errors.
+
+17. FINAL IMPLEMENTATION CHECKLIST
+Before declaring the website complete, verify the following:
+[ ] The welcome screen loads correctly.
+[ ] The entrance button works.
+[ ] The friendship origin story is present.
+[ ] The interactive Class 7 jokes work.
+[ ] All three memory cards open correctly.
+[ ] The Class 10 memory is included.
+[ ] The Class 11 memory is included.
+[ ] The Class 12 memory is included.
+[ ] The Things I Like About You section works.
+[ ] The humorous beauty buttons work.
+[ ] The real appreciation message is included.
+[ ] The Open When You're Sad envelope opens correctly.
+[ ] The complete comforting letter is present.
+[ ] The secret message envelope opens correctly.
+[ ] The complete secret letter is present.
+[ ] The final birthday surprise works.
+[ ] The friendship subscription card appears.
+[ ] The restart button returns to the beginning.
+[ ] The optional sound controls work if implemented.
+[ ] The website is usable on mobile.
+[ ] No important text is cut off.
+[ ] There are no dead buttons.
+[ ] There are no missing assets.
+[ ] There are no console errors.
+[ ] The website does not require a backend.
+[ ] The project can be run using the supplied instructions.
+
+18. WHAT YOU MUST DELIVER
+Produce the actual working website, not merely a plan.
+If you are working in a coding environment, create the necessary project files.
+Deliver:
+1. The complete website implementation.
+2. All required CSS, JavaScript, and components.
+3. Any required assets.
+4. Clear setup and run instructions.
+5. Instructions for replacing placeholder photos with actual photographs.
+6. Instructions for changing the colour palette and text.
+7. Instructions for deploying the website so I can share a link with Meitrii.
+8. A short checklist for testing the website before sending it to her.
+If you can run the project, test it and fix any errors before finishing.
+If you cannot execute code in your environment, provide all the complete source files and explain exactly how to run them.
+Do not omit content to save tokens.
+Do not replace the actual implementation with an explanation.
+Do not stop at a design mockup.
+Build the complete, polished, responsive, interactive birthday website.
+The final result should feel like this:
+A little piece of the internet where a girl named Meitrii can laugh at our stupid memories, revisit our school years, discover how much her friendship matters, read a letter whenever she has a difficult day, and finish the experience knowing that someone is genuinely grateful to have her in their life.
+Make it beautiful.
+Make it funny.
+Make it personal.
+And above all, make it feel real. ❤️

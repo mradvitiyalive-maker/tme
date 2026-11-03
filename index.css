@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+@theme {
+  --font-fredoka: "Fredoka", cursive, sans-serif;
+  --font-handwriting: "Caveat", cursive, sans-serif;
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+
+  --color-cream: #FFF9F2;
+  --color-pastel-pink: #F8DDE5;
+  --color-soft-rose: #EBA8BC;
+  --color-lavender: #E8E1FA;
+  --color-peach: #FFDCC5;
+  --color-dark-text: #352D32;
+  --color-muted-text: #786B73;
+}
+
+/* Custom handwriting and header classes */
+.font-heading {
+  font-family: var(--font-fredoka);
+}
+
+.font-note {
+  font-family: var(--font-handwriting);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+/* Notebook paper background pattern */
+.bg-notebook-pattern {
+  background-color: #ffffff;
+  background-image: linear-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 100% 28px;
+  line-height: 28px;
+}
+
+/* Soft paper texture effect */
+.paper-shadow {
+  box-shadow: 0 4px 20px -2px rgba(53, 45, 50, 0.08), 0 2px 6px -1px rgba(53, 45, 50, 0.04);
+}
+
+.polaroid-shadow {
+  box-shadow: 0 10px 25px -5px rgba(53, 45, 50, 0.12), 0 8px 10px -6px rgba(53, 45, 50, 0.08);
+}
+
+/* Washi tape effect */
+.washi-tape {
+  background: rgba(248, 221, 229, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+.washi-tape-lavender {
+  background: rgba(232, 225, 250, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+.washi-tape-peach {
+  background: rgba(255, 220, 197, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+/* Keyframe animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes candleFlicker {
+  0%, 100% {
+    transform: scale(1) rotate(-1deg);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(1.1, 1.15) rotate(1.5deg);
+    opacity: 1;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-gentle-pulse {
+  animation: gentlePulse 2.5s ease-in-out infinite;
+}
+
+.animate-flicker {
+  animation: candleFlicker 0.6s ease-in-out infinite alternate;
+}
+
+/* Floating Balloons Animations */
+@keyframes balloonFloat {
+  0% {
+    transform: translateY(0) scale(var(--balloon-scale, 1));
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.85;
+  }
+  90% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(calc(-100vh - 220px)) scale(var(--balloon-scale, 1));
+    opacity: 0;
+  }
+}
+
+@keyframes balloonSway {
+  0%, 100% {
+    transform: rotate(-3deg) translateX(-8px);
+  }
+  50% {
+    transform: rotate(4deg) translateX(8px);
+  }
+}
+
+.animate-balloon-float {
+  animation-name: balloonFloat;
+}
+
+.animate-balloon-sway {
+  animation-name: balloonSway;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
